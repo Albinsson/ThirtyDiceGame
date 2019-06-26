@@ -13,6 +13,7 @@ below. Each choice may be made a maximum of once during a game. At the point cou
 of each dice gets counted only once. 
 
 (Low)  All dice with value 3 or lower score.
+
 (4)    Any combination of one or more dice that gives the sum 4 gives points.
 (5)    All combinations of one or more dice giving the sum 5 give points.
 (6)    Any combination of one or more dice giving the sum of 6 gives points.
