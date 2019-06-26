@@ -3,7 +3,7 @@ Thirty is a dice game for Android.
 
 Thirty is a dice game not completely different from Yatzy where you throw six dice in batches. You then have the option to hold the dice you want and throw it another two times. After the three throws, you calculate the score for the dice. A game then consists of 10 such rounds. So we will make a maximum of 30 throws, hence the name of the game.
 
-Scoreing
+# Scoring
 
 When scoring, you choose what to count in this round as. For possible choices see the table below. Each choice may be made a maximum of once during a game. At the point count, the value of each dice gets counted only once. 
 
