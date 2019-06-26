@@ -7,13 +7,23 @@ Thirty is a dice game not completely different from Yatzy where you throw six di
 
 When scoring, you choose what to count in this round as. For possible choices see the table below. Each choice may be made a maximum of once during a game. At the point count, the value of each dice gets counted only once. 
 
-Low   All dice with value 3 or lower score
+Low   All dice with value 3 or lower score.
+
 4     Any combination of one or more dice that gives the sum 4 gives points.
+
 5     All combinations of one or more dice giving the sum 5 give points.
+
 6     Any combination of one or more dice giving the sum of 6 gives points.
+
 7     All combinations of one or more dice giving the sum of 7 score.
+
 8     All combinations of one or more dice that give the sum 8 give points.
+
 9     All combinations of one or more dice that give the sum 9 give points.
+
 10    All combinations of one or more dice giving the sum 10 give points.
+
 11    Any combination of one or more dice that gives the sum of 11 gives points.
+
 12    Any combination of one or more dice that gives the sum of 12 gives points.
+
