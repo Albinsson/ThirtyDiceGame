@@ -24,11 +24,13 @@ public class MainActivityPresenter implements MainActivityContract.Presenter {
 
     @Override
     public void onClickThrow(View view) {
-        String data = mModel.getData();
+        String roundCounter = mModel.getRoundCounter();
+        String throwCounter = mModel.getThrowCounter();
+
 
         int [] diceDrawable = mModel.getDice();
 
-        mView.setViewData(data);
+        mView.setViewData(roundCounter, throwCounter);
         mView.setDices(diceDrawable);
     }
 

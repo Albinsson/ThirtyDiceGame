@@ -4,10 +4,6 @@ import java.util.Random;
 
 public class MainActivityModel implements MainActivityContract.Model {
 
-    private int counter = 0;
-
-    boolean firstRoll = true;
-
     private int throwCounter = 0;
     private int throwMax = 3;
 
@@ -27,42 +23,9 @@ public class MainActivityModel implements MainActivityContract.Model {
     }
 
 
-
-    @Override
-    public String getData() {
-
-        String msg = "Hello World! \n";
-        if (counter == 0) {
-            counter++;
-        } else {
-            msg += counter++;
-        }
-
-        return msg;
-    }
-
-
-
-    @Override
-    public String [] getThrow() {
-
-//        String [] diceArray = getDiceRoll(new boolean[]{true, true, true, true, true, true});
-
-        String dice1 = "white1.png";
-        String dice2 = "white2.png";
-        String dice3 = "white3.png";
-        String dice4 = "white4.png";
-        String dice5 = "white5.png";
-        String dice6 = "white6.png";
-
-        String diceDrawables [] = new String[]{dice1,dice2,dice3,dice4,dice5,dice6};
-
-        return (diceDrawables);
-    }
-
     public int [] getDice() {
 
-        if (firstRoll == true){initNewGame();}
+        if (throwCounter == 0 && roundCounter ==0){initNewGame();}
 
         rollDice();
 
@@ -78,7 +41,7 @@ public class MainActivityModel implements MainActivityContract.Model {
     }
 
     private void initNewGame() {
-        firstRoll = false;
+
     }
 
     public int getImage(int dieNumber){
@@ -105,6 +68,16 @@ public class MainActivityModel implements MainActivityContract.Model {
     public void toggleDieHold(int dieNumber) {
         this.diceHold[dieNumber-1] = !this.diceHold[dieNumber-1];
     }
+
+    @Override
+    public String getRoundCounter() {
+        return Integer.toString(roundCounter);
+    }
+
+    public String getThrowCounter() {
+        return Integer.toString(throwCounter);
+    }
+
 
 
     @Override

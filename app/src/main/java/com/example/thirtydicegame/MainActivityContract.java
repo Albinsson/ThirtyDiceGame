@@ -7,20 +7,19 @@ public interface MainActivityContract {
 
     interface View {
         void initView();
-        void setViewData(String data);
+        void setViewData(String roundCounter, String throwCounter);
         void setDices(int[] diceDrawable);
 
         void setDieHoldImage(ImageView imageView, int dieDrawable);
     }
 
     interface Model {
-        String getData();
-        String [] getThrow();
         void rollDice();
         int [] getDice();
         int getImage(int dieNumber);
-
         void toggleDieHold(int dieNumber);
+        String getRoundCounter();
+        String getThrowCounter();
     }
 
     interface Presenter {

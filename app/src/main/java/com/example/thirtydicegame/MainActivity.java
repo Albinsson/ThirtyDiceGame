@@ -123,8 +123,8 @@ public class MainActivity extends AppCompatActivity implements MainActivityContr
     }
 
     @Override
-    public void setViewData(String data) {
-        mTextView.setText(data);
+    public void setViewData(String roundCounter, String throwCounter) {
+        mTextView.setText("Round: " + roundCounter +"\nThrow: " +throwCounter +" of 3");
     }
 
     @Override
@@ -142,6 +142,4 @@ public class MainActivity extends AppCompatActivity implements MainActivityContr
     public void setDieHoldImage(ImageView imageView, int dieDrawable) {
      imageView.setImageResource(dieDrawable);
     }
-
-
 }

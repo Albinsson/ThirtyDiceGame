@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="points_spinner" type="id">points_spinner</item>
+    <item name="btn" type="id">btn</item>
+    <item name="textView" type="id" />
+    <item name="imageViewDice1" type="id" />
+    <item name="imageViewDice2" type="id" />
+    <item name="imageViewDice3" type="id" />
+    <item name="imageViewDice4" type="id" />
+    <item name="imageViewDice5" type="id" />
+    <item name="imageViewDice6" type="id" />
+</resources>
