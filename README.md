@@ -15,12 +15,19 @@ of each dice gets counted only once.
 (Low)  All dice with value 3 or lower score.
 
 (4)    Any combination of one or more dice that gives the sum 4 gives points.
-(5)    All combinations of one or more dice giving the sum 5 give points.
-(6)    Any combination of one or more dice giving the sum of 6 gives points.
-(7)    All combinations of one or more dice giving the sum of 7 score.
-(8)    All combinations of one or more dice that give the sum 8 give points.
-(9)    All combinations of one or more dice that give the sum 9 give points.
-(10)   All combinations of one or more dice giving the sum 10 give points.
-(11)   Any combination of one or more dice that gives the sum of 11 gives points.
-(12)   Any combination of one or more dice that gives the sum of 12 gives points.
 
+(5)    All combinations of one or more dice giving the sum 5 give points.
+
+(6)    Any combination of one or more dice giving the sum of 6 gives points.
+
+(7)    All combinations of one or more dice giving the sum of 7 score.
+
+(8)    All combinations of one or more dice that give the sum 8 give points.
+
+(9)    All combinations of one or more dice that give the sum 9 give points.
+
+(10)   All combinations of one or more dice giving the sum 10 give points.
+
+(11)   Any combination of one or more dice that gives the sum of 11 gives points.
+
+(12)   Any combination of one or more dice that gives the sum of 12 gives points.
